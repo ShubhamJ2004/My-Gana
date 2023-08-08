@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.head{
+    display: flex;
+    width: 100%;
+    background: linear-gradient(to top left, #000000, #000000);
+    font-size: 50px;
+    font-family: 'Lobster';
+    color: #ffffff;
+    justify-content: center;
+    box-shadow: 5px 4px 5px rgba(1, 1, 1, 0.5);
+}
+
+
+.main-content{
+    background: linear-gradient(to top left, #0f087792, #ffffff03);
+    min-height: 900px;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    font-size: 16px;
+    padding: 20px;
+    font-family: "lobster", sans-serif;
+    background-color: white;
+    background-color: rgb(235, 230, 230);
+    height: 450px;
+    width: 380px;
+    margin-top: 250px;
+    margin-right: 20px;
+    background: linear-gradient(to top left, #ffffff92, #ffffff03);
+    box-shadow: 12px 7px 3px rgba(1, 1, 1, 0.5);
+    background-color: #ffffff09;
+    backdrop-filter: blur(2px);
+    border-radius: 5px;
+}
+
+.setimage{
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.btn{
+    font-size: 30px;
+    font-family: 'lobster', arial;
+    height: 50px;
+    background-color: #05b172;
+    border-color: #05b172;
+    border: none;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    box-shadow: 5px 4px 6px rgba(1, 1, 1, 0.5);
+    margin-top:10px;
+    transition: all 0.50s;
+}
+
+.btn:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+    background-color: #039a63;
+}
+
+.btn:active{
+    transform: scale(0.90);
+}
+
+.container h2{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.btn-container{
+    display: flex;
+    flex-direction: column;
+  }
